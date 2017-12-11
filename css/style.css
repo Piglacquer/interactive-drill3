@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  flex-flow: column;
+  margin: 0, 0, 0, 0;
+  padding: 0, 0, 0, 0;
+  float: none;
+}
+
+.canvas {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 45vh;
+  width: 60vh;
+}
+
+.canvasBlock {
+  height:3vh;
+  width: 3vh;
+  background-color: white;
+  outline: 1px solid black;
+}
+
+.palette{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.paletteColor{
+  border-radius: 5vh;
+  margin: 3vh 1vh;
+  height: 5vh;
+  width: 5vh;
+}
